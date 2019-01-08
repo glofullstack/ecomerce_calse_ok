@@ -231,3 +231,15 @@ main .products article .descuento{
 		flex-flow: row wrap;
 		/*justify-content: space-between;*/ 
 	}
+
+	main .brand .contenedorflex{
+		justify-content: space-between;
+	}
+	
+	main .brand{
+		margin-bottom: 25px;
+	}
+
+	main .brand img{
+	border:4px solid #ebebeb;
+	}
