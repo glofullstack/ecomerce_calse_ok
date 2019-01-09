@@ -226,12 +226,40 @@ main .products article .descuento{
 	left: -4px;
 }
 	
-	.contenedorflex{
+
+
+/*---------------------------MARCAS*/	
+	main .products .contenedorflex{
 		display: flex;
 		flex-flow: row wrap;
 		/*justify-content: space-between;*/ 
 	}
 
+	
+
+	.marcas {
+		padding-bottom: 40px;
+	}
+	
+	.marcas .contenedorflex{
+		display: flex;
+		/*justify-content: space-between;*/
+		flex-flow: row wrap;
+
+	}
+
+	.marcas .contenedorflex .brand{
+		margin-right: 5.6%;
+		border: 4px solid #ebebeb;
+
+	}
+	
+	.marcas .contenedorflex .brand:last-child{
+		margin-right: 0%;
+
+	}
+
+/*
 	main .brand .contenedorflex{
 		justify-content: space-between;
 	}
@@ -243,3 +271,4 @@ main .products article .descuento{
 	main .brand img{
 	border:4px solid #ebebeb;
 	}
+	*/
