@@ -168,3 +168,107 @@ footer .footer-sup .columna-big div, footer .footer-sup .columna-big h4{
 footer .footer-sup nav ul li{
 	line-height: 25px;
 }
+
+
+
+
+/*----MAIN--*/
+main h1{
+	display: none;
+}
+
+main .products{
+	padding: 40px 0px;
+}
+
+main .products hr{
+	border-color: #eee;
+	width: 70%;
+
+}
+
+main .products h2{
+	text-align: center;
+	text-transform: uppercase;
+	background-color: white;
+	width: 20%;
+	margin: 0 auto;
+	margin-top:-18px;
+	margin-bottom: 20px;
+}
+
+main .products article{
+	border:4px solid #ebebeb;
+	width: 31%;
+	text-align: center;	
+	text-transform: uppercase;
+	padding: 20px;
+	line-height: 20px;
+	position: relative;
+	margin-right: 2%;
+	
+}
+main .products article img{
+	height: auto;
+	width: 100%;
+}
+
+
+main .products article .descuento{
+	position: absolute;
+	background-color: #f44d55;
+	border-left: 4px solid #fe0000;
+	padding: 10px;
+	font-weight: 700;
+	color: white;
+	width: 25%;
+	top: 25px;
+	left: -4px;
+}
+	
+
+
+/*---------------------------MARCAS*/	
+	main .products .contenedorflex{
+		display: flex;
+		flex-flow: row wrap;
+		/*justify-content: space-between;*/ 
+	}
+
+	
+
+	.marcas {
+		padding-bottom: 40px;
+	}
+	
+	.marcas .contenedorflex{
+		display: flex;
+		/*justify-content: space-between;*/
+		flex-flow: row wrap;
+
+	}
+
+	.marcas .contenedorflex .brand{
+		margin-right: 5.6%;
+		border: 4px solid #ebebeb;
+
+	}
+	
+	.marcas .contenedorflex .brand:last-child{
+		margin-right: 0%;
+
+	}
+
+/*
+	main .brand .contenedorflex{
+		justify-content: space-between;
+	}
+	
+	main .brand{
+		margin-bottom: 25px;
+	}
+
+	main .brand img{
+	border:4px solid #ebebeb;
+	}
+	*/
